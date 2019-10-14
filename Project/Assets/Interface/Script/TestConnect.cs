@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
 
 public class TestConnect : MonoBehaviourPunCallbacks
 {
     private RoomCanvases _roomCanvases;
+    public Text Status;
 
     // Start is called before the first frame update
     /*void Start()
@@ -44,6 +46,7 @@ public class TestConnect : MonoBehaviourPunCallbacks
     private void Start()
     {
         Debug.Log("Connecting to Server...");
+        Status.text = "Connecting to Server...";
         PhotonNetwork.NickName = MasterManager.GameSettings.Nickname;
         PhotonNetwork.ConnectUsingSettings();
     }
@@ -63,10 +66,12 @@ public class TestConnect : MonoBehaviourPunCallbacks
     public override void OnDisconnected(DisconnectCause cause)
     {
         Debug.Log("Failed to connect to Self-hosted server " + cause.ToString(), this);
+        Status.text = "Failed to connect to Self-hosted server";
     }
 
     public override void OnJoinedLobby()
     {
         Debug.Log("Joined lobby.");
+        Status.text = "Joined lobby.";
     }
 }

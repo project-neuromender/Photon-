@@ -30,7 +30,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Interface/Scenes/GameorModule/Module 2/SimpleGame.unity
     guid: cca9718543157414281bef53633a1e5e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Interface/Scenes/GameorModule/Module 3/final.unity
     guid: 6957a6303f2e2f24cb5eaf70030f2a49
   - enabled: 1
