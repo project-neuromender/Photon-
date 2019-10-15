@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 117436649}
   - component: {fileID: 117436647}
   - component: {fileID: 117436646}
+  - component: {fileID: 117436648}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Cube
@@ -333,6 +334,19 @@ MonoBehaviour:
   viewIdField: 12
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &117436648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117436641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!114 &117436649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +450,7 @@ GameObject:
   - component: {fileID: 319465549}
   - component: {fileID: 319465547}
   - component: {fileID: 319465546}
+  - component: {fileID: 319465548}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Cube
@@ -494,6 +509,19 @@ MonoBehaviour:
   viewIdField: 17
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &319465548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319465544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!114 &319465549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -771,6 +799,7 @@ GameObject:
   - component: {fileID: 572976657}
   - component: {fileID: 572976655}
   - component: {fileID: 572976654}
+  - component: {fileID: 572976656}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Cube
@@ -829,6 +858,19 @@ MonoBehaviour:
   viewIdField: 16
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &572976656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572976652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!114 &572976657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1095,6 +1137,19 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &609341593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609341591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!114 &663368460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1697,6 +1752,7 @@ GameObject:
   - component: {fileID: 1232768666}
   - component: {fileID: 1232768664}
   - component: {fileID: 1232768663}
+  - component: {fileID: 1232768665}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Cube
@@ -1755,6 +1811,19 @@ MonoBehaviour:
   viewIdField: 13
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1232768665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232768661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!114 &1232768666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,6 +2657,19 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &1610213838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610213836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &1637543441
 GameObject:
   m_ObjectHideFlags: 0
@@ -2818,6 +2900,19 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &1707917794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707917792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1001 &1854885796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3717,6 +3812,19 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &4290664238978211182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290664238978211180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!65 &5430703292451468928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3807,6 +3915,7 @@ GameObject:
   - component: {fileID: 488055396437287847}
   - component: {fileID: 663368460}
   - component: {fileID: 663368461}
+  - component: {fileID: 5430703292451468936}
   m_Layer: 0
   m_Name: TablePlane
   m_TagString: Interactable
@@ -3814,6 +3923,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5430703292451468936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430703292451468935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547ce843d573e4aa6885e748061829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &5891648918944136019
 GameObject:
   m_ObjectHideFlags: 0
