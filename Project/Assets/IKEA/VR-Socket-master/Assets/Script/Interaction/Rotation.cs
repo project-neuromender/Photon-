@@ -23,4 +23,9 @@ public class Rotation : MonoBehaviour
         float v = Input.GetAxis("Vertical") * moveSpeed;
         transform.Translate(new Vector3(0, 0, v) * Time.deltaTime);
     }*/
+
+    /* float speed = 50.0f;
+     * void Update (){
+     * transform.Rotate(Vector3.right*speed*Time.deltaTime);
+     * }
 }
