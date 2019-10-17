@@ -7,18 +7,36 @@ public class Rotation : Interactable
 {
     //float rotSpeed = 60.0f;
     //GameObject target;
-    float startingRotationZ;
+    float startingRotationX;
+    //float startingRotationY;
     // float speed = 50.0f;
 
    void Start()
     {
-        startingRotationZ = transform.rotation.z;
+        startingRotationX = transform.rotation.x;
     }
 
 
     void Update() {
-        transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, startingRotationZ, transform.rotation.w);
+        transform.rotation = new Quaternion(startingRotationX, transform.rotation.y, transform.rotation.z, transform.rotation.w);
     }
+
+
+    /*void Start()
+    {
+        startingRotationY = transform.rotation.y;
+    }
+
+
+    void Update()
+    {
+        transform.rotation = new Quaternion(transform.rotation.x, startingRotationY, transform.rotation.z, transform.rotation.w);
+    }*/
+
+
+
+
+
 
     /* void Update()
    {
