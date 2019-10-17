@@ -7,18 +7,23 @@ public class Rotation : Interactable
 {
     //float rotSpeed = 60.0f;
     //GameObject target;
-    //float startingRotationZ;
-      float speed = 50.0f;
+    float startingRotationZ;
+    // float speed = 50.0f;
 
-    void Update()
+   void Start()
     {
-        transform.Rotate(Vector3.right * speed * Time.deltaTime);
+        startingRotationZ = transform.rotation.z;
     }
 
-    /*void Update() {
-        transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, startingRotationZ, transform.rotation.w);
-    }*/
 
+    void Update() {
+        transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, startingRotationZ, transform.rotation.w);
+    }
+
+    /* void Update()
+   {
+       transform.Rotate(Vector3.right * speed * Time.deltaTime);
+   }*/
 
     /*void Start()
    {
@@ -43,10 +48,10 @@ public class Rotation : Interactable
 
 
 
-   /* void Update()
-    {
-      transform.Rotate(0, rotSpeed * Time.deltaTime, 0, Space.World);   dah cuba
-    }*/
+    /* void Update()
+     {
+       transform.Rotate(0, rotSpeed * Time.deltaTime, 0, Space.World);   dah cuba
+     }*/
 
-    
+
 }
