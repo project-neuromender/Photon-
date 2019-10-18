@@ -7,17 +7,17 @@ public class Rotation : Interactable
 {
     //float rotSpeed = 60.0f;
     //GameObject target;
-    float startingRotationX;
+    //float startingRotationX;
     //float startingRotationY;
     // float speed = 50.0f;
+    public float moveSpeed;
 
-   void Start()
+    void Start()
     {
-        startingRotationX = transform.rotation.x;
     }
 
 
-    void Update() {
+    /*void Update() {
         transform.rotation = new Quaternion(startingRotationX, transform.rotation.y, transform.rotation.z, transform.rotation.w);
     }
 
@@ -55,13 +55,11 @@ public class Rotation : Interactable
 
 
 
-    /*public float moveSpeed;
-
-    /*void Update()
+    void Update()
     {
         float v = Input.GetAxis("Vertical") * moveSpeed;
         transform.Translate(new Vector3(0, 0, v) * Time.deltaTime);
-    }*/
+    }
 
 
 
