@@ -10,11 +10,29 @@ public class Rotation : Interactable
     //float startingRotationX;
     //float startingRotationY;
     // float speed = 50.0f;
-    public float moveSpeed;
+    //public float moveSpeed;
 
-    void Start()
+    float speed = 5F;
+
+     void Update()
     {
+        transform.Rotate (speed, 0, 0);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*void Start()
+    {
+    }*/
 
 
     /*void Update() {
@@ -55,11 +73,11 @@ public class Rotation : Interactable
 
 
 
-    void Update()
+    /*void Update()
     {
         float v = Input.GetAxis("Vertical") * moveSpeed;
         transform.Translate(new Vector3(0, 0, v) * Time.deltaTime);
-    }
+    }*/
 
 
 
